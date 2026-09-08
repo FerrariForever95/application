@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+.lcov*
+
+# Build outputs
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vite
+.cache/
+temp/
+
+# Storybook
+.storybook/
+
+# Vercel
+.vercel/
+
+# Output of node modules that may be committed as part of a build step
+capacitor/
+ capacitor-android/
+ capacitor-ios/
+
+# Capacitor updates
+ capacitor-plugin-release/
+
+# Google Services (e.g. API keys or JSON config)
+google-services.json
+
+# Export type
+export-types/
+
+# vitepress
+node_modules/vitepress/dist/
+
+# Vitest UI
+.vue-test/
+
+# Cypress
+cypress/
+
+# Vitest
+vitest/
+
+# Playwright
+playwright/
